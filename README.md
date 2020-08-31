@@ -12,7 +12,8 @@ Snappy uses the configuration created by the AWS click
 'awsconnect --role abcd'
 
 ##Running
-'pipenv run python snappy/snappy.py <ACTION> <--project=ProjectName>'
+'pipenv run python snappy/snappy.py <ACTION> <Subactionb> <--project=ProjectName>'
 
-*Action* is list, stop, or start
+*Action* is instances, volumes and snapshots
+*Subaction* - depends of the chosen command 
 *project* is Optional
